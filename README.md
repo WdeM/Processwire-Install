@@ -7,7 +7,7 @@ Processwire install steps.
 
 Install necessary packages
 
-`sudo apt-get install apache2 libapache2-mod-php mysql-server php-mysql php7.4-gd php-zip`
+`sudo apt-get install apache2 php libapache2-mod-php mysql-server php-mysql php7.4-gd php-zip`
 
 Enable apache module mod_rewrite
 
