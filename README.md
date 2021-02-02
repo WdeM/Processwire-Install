@@ -28,7 +28,7 @@ Edit from the conf file
 
 <Directory /var/www/>
     Options FollowSymLinks
-    AllowOverride None -> Change to ALL
+    AllowOverride None -> Change to All
     ...
 ```
 `sudo a2enmod rewrite`
