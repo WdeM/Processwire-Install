@@ -9,10 +9,6 @@ Install necessary packages
 
 `sudo apt-get install apache2 php libapache2-mod-php mysql-server php-mysql php7.4-gd php-zip`
 
-Enable apache module mod_rewrite
-
-`sudo a2enmod rewrite`
-
 Configure database
 
 ```
@@ -25,7 +21,7 @@ grant all privileges on DATABASENAME.* to 'username'@'localhost';
 flush privileges;
 ```
 
-Edit /etc/apache2/apache2.conf
+Configure apache
 
 ```
 Edit from the conf file
@@ -35,6 +31,7 @@ Edit from the conf file
     AllowOverride None -> Change to ALL
     ...
 ```
+`sudo a2enmod rewrite`
 
 Download and build processwire
 
