@@ -24,7 +24,7 @@ flush privileges;
 Configure apache
 
 ```
-Edit from the conf file
+Edit from the conf file /etc/apache2/apache2.conf
 
 <Directory /var/www/>
     Options FollowSymLinks
